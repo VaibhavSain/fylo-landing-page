@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 120rem;
+}
+header .logo {
+    position: absolute;
+    left: 3rem;
+    top: 2.50rem;
+    height: 2.50rem;
+}
+header .nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.8);
+    gap: 40px;
+    position: absolute;
+    right: 3rem;
+    top: 2.50rem;
+}
+main .heading{
+ position: absolute;
+ font-size: 34px;
+ top: 14rem;
+ font-family: Times, serif;
+ line-height: 3rem;
+ left: 3rem;
+}
+main .para {
+    position: absolute;
+    top: 21.50rem;
+    color: rgba(0, 0, 0, 0.8);
+    left: 3rem;
+}
+main .gmail {
+    width: 19rem;
+    height:2rem;
+    position: absolute;
+    top: 32em;
+    left: 3rem;
+
+    padding-left: 20px;
+}
+main .btn {
+    padding-left:40px ;
+    padding-right: 40px;
+    height: 2rem;
+    background-color:#2f65f9;
+    color: white;
+    position: absolute;
+    top: 26.70rem;
+    left: 23rem;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+
+}
+main .btn:hover {
+background-color: hsl(216, 73%, 56%);
+cursor: pointer;
+}
+main .illu {
+    position: absolute;
+    right: 4rem;
+    height: 24rem;
+    top: 10rem;
+}
+main .heading2 {
+    position: absolute;
+ font-size: 34px;
+ top: 56rem;
+ font-family: Times, serif;
+ line-height: 3rem;
+ left: 3rem;
+}
+main .para2 {
+    position: absolute;
+    top: 60rem;
+    color: rgba(0, 0, 0, 0.8);
+    left: 3rem;
+}
+main .para3 {
+    position: absolute;
+    top: 64rem;
+    color: rgba(0, 0, 0, 0.8);
+    left: 3rem;
+}
+main .para4 {
+    position: absolute;
+    top: 68rem;
+    color: rgba(0, 0, 0, 0.8);
+    left: 3rem;
+    text-decoration: underline;
+}
+main .para4:hover {
+    color:hsl(216, 73%, 56%); 
+    cursor: pointer;
+}
+main .para4 .arrow {
+ position: absolute;
+ top: 0.20rem;
+ left: 10rem;
+}
+
+main .illu2 {
+    position: absolute;
+    top: 57rem;
+    height: 24rem;
+    right: 4rem;
+}
+main .box {
+    height: 12rem;
+    width: 20rem;
+    background-color: #ffffff;
+    position: absolute;
+    top: 72rem;
+    border-radius: 8px;
+    left: 3rem;
+}
+main .quote {
+    position: absolute;
+    top: 1.50rem;
+    left: 2rem;
+}
+main .box .parag {
+    position: absolute;
+    left: 2rem;
+    top: 3rem;
+    line-height:1.20rem;
+    font-size: 12px;
+}
+main .box .avatar {
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+    border-radius: 25px;
+    height: 2rem;
+}
+main .box .heading6 {
+    position: absolute;
+    bottom:2rem;
+    left: 4.50rem;
+}
+main .box .para6 {
+    position: absolute;
+    bottom: 1rem;
+    font-size: 8px;
+    left: 4.50rem;
+}
+main .div3 {
+    position: absolute;
+    top: 90rem;
+    width: 100%;
+    background-color:#575989;
+    height: 18rem;
+
+}
+main .div3 .heading3 {
+    position: absolute;
+    top: 6rem;
+    left: 5rem;
+    color: white;
+    font-size: 28px;
+}
+main .div3 .para3 {
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+    color: rgba(255,255,255, 0.8);
+}
+main .div3 .gmail2 {
+    width: 24rem;
+    height:2.50rem;
+    position: absolute;
+    top: 7rem;
+    right: 10rem;
+    padding-left: 20px;
+}
+main .div3 .btn2 {
+    padding-left:40px ;
+    padding-right: 40px;
+    height: 2.50rem;
+    background-color:#2f65f9;
+    color: white;
+    position: absolute;
+    top: 10.50rem;
+    right: 21rem;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+   
+}
+main .div3 .btn2:hover {
+    background-color: hsl(216, 73%, 56%);
+    cursor: pointer;
+}
+footer {
+    background-color: #07043b;
+    height:24rem;
+    width: 100%;
+    position: absolute;
+    top: 108rem;
+}
+footer .logo {
+    position: absolute;
+    left: 4rem;
+    top: 6rem;
+}
+
+footer .foot {
+    list-style-type: none;
+    color:rgba(255,255,255, 0.9);
+    position: absolute;
+    top: 10rem;
+    left: 6.50rem;
+    line-height: 2rem;
+}
+footer .icon {
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    position: absolute;
+    top: 10.30rem;
+    left: 4.30rem;
+}
+footer .icon img {
+    height: 1.20rem;
+    width: 1.20rem;
+}
+footer .link {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    position: absolute;
+    left: 32rem;
+    font-size: 16px;
+    top: 11rem;
+    color:rgba(255,255,255, 0.9);
+}
+footer .link li:hover {
+    cursor: pointer;
+    color: #575989;
+}
+footer .link2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    position: absolute;
+    left: 50rem;
+    font-size: 16px;
+    top: 11rem;
+    color:rgba(255,255,255, 0.9);
+}
+footer .link2 li:hover {
+    cursor: pointer;
+    color: #575989;
+}
